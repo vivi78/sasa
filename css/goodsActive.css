@@ -1,0 +1,172 @@
+#goodsActiveBody{
+	background-color: #F2F2F2;
+}
+#gaPicBox{
+	height: 420px;
+	margin: 0 auto 30px auto;
+	overflow: hidden;
+	position: relative;
+}
+#gaPic{
+	background: url(../img/goodsActive/hk_bg.jpg) center top no-repeat;
+	width: 100%;
+	height: 420px;
+}
+#gaPage{
+	width: 1090px;
+	margin: 0 auto;
+	position: relative;
+	padding-bottom: 60px;
+	overflow: hidden;
+}
+.pageTitle{
+	width: 1090px;
+	margin: 0 auto 20px auto;
+	overflow: hidden;
+}
+.gaUl{
+	width: 1150px;
+	padding: 5px 0 30px 0;
+	margin-left: -26px;
+	float: left;
+}
+.gaLi{
+	width: 253px;
+	height: 485px;
+	float: left;
+	margin: 0 0 25px 26px;
+	position: relative;
+}
+.infoFather{
+	background-color: white;
+	width: 253px;
+	height: 485px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all .2s linear;
+	z-index: 10;
+}
+.goodsPic{
+	position: relative;
+	width: 253px;
+	height: 253px;
+	overflow: hidden;
+	transition: all .2s linear;
+}
+.newImg{
+	width: 45px;
+	height: 45px;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+.goodsBrand{
+	width: 83px;
+	height: 24px;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	color: #98999b;
+}
+.brandImg{
+	width: 21px;
+	margin-right: 6px;
+}
+.brandWord{
+	font-size: 13px;
+}
+.goodsImg{
+	width: auto;
+	height: 253px;
+	margin: 0 auto;
+	display: block;
+}
+.goodsPrice{
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	padding: 10px 15px;
+	color: #858587;
+}
+.discount{
+	float: right;
+	color: #C69A62;
+	margin-top: 8px;
+	font-size: 14px;
+}
+.goodsNow{
+	color: #EC3E7D;
+	font-size: 24px;
+	margin-right: 10px;
+	text-align: left;
+}
+.goodsOld{
+	color: #858587;
+	text-align: left;
+	font-size: 14px;
+}
+.goodsDetail{
+	padding: 12px 15px;
+	overflow: hidden;
+}
+.detail01{
+	color: #404040;
+	height: 20px;
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+}
+.detailB{
+	color: #ee9c23;
+}
+.detail02{
+	color: #404040;
+	height: 40px;
+	line-height: 20px;
+	font-size: 13px;
+}
+.detail03{
+	color: #404040;
+	font-size: 14px;
+}
+.goodsTag{
+	height: 22px;
+	line-height: 22px;
+	background-color: #C69A62;
+	color: white;
+	float: left;
+	margin: 5px 5px 4px 0;
+	padding: 0 5px;
+	border-radius: 3px;
+}
+.goodsBtn{
+	padding: 10px 15px;
+	display: none;
+}
+.btnA{
+	text-decoration: none;
+}
+.btnSpan{
+	display: inline-block;
+	padding: 2px 0px;
+	width: 224px;
+	height: 39px;
+	line-height: 39px;
+	text-align: center;
+	font-size: 16px;
+	background-color: #EC3E7D;
+	color: white;	
+}
+.gaLi:hover .infoFather{
+	height: 520px;
+	box-shadow: 0px 4px 20px rgba(0,0,0,.2);
+	z-index: 50;
+}
+.gaLi:hover .goodsDetail{
+	height: 125px;
+}
+.gaLi:hover .goodsBtn{
+	display: block;
+}

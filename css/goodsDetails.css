@@ -1,0 +1,491 @@
+a:hover{
+	text-decoration: none;
+}
+button{
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+#goodsDetailsBody{
+	background-color: #F2F2F2;
+}
+#gdContent{
+	overflow: hidden;
+}
+#gdNav{
+	height: 20px;
+	line-height: 20px;
+	margin: 15px auto;
+	color: #888888;
+	overflow: hidden;
+}
+#gdNav a{
+	color: #888888;
+	font-size: 14px;
+}
+#gdNav a:hover{
+	color: black;
+}
+#gdMain{
+	background-color: white;
+	margin-bottom: 30px;
+	overflow: hidden;
+}
+#gdLeft{
+	float: left;
+	width: 540px;
+}
+#gdPic{
+	width: 500px;
+	margin: 25px auto;
+	position: relative;
+}
+#gdPicBox{
+	position: relative;
+}
+#picMain{
+	width: 300px;
+	height: 300px;
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+}
+#picSmallBox{
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: #b3d5ff;
+	opacity: 0.5;
+	/*overflow: hidden;*/
+	display: none;
+}
+#gdFind{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	background-color: #f6f6f6;
+	width: 24px;
+	height: 24px;
+	opacity: 0.8;
+}
+#gdBrand{
+	margin: 0 auto 20px auto;
+	width: 80%;
+}
+#brandImg{
+	margin-right: 5px;
+}
+#brandWord{
+	margin-right: 10px;
+	color: #999999;
+	font-size: 14px;
+}
+#gdPicBtn{
+	width: 500px;
+	height: 110px;
+	margin-top: 10px;
+	position: relative;
+	/*overflow: hidden;*/
+}
+#btnLeft{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 16px;
+	height: 105px;
+	line-height: 64px;
+}
+#btnRight{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 16px;
+	height: 105px;
+	line-height: 64px;
+}
+#btnLeft i{
+	display: block;
+	color: #CCCCCC;
+	font-size: 28px;
+	margin-top: 15px;
+}
+#btnRight i{
+	display: block;
+	color: #CCCCCC;
+	font-size: 28px;
+	margin-top: 15px;
+}
+#btnPicList{
+	width: 450px;
+	height: 105px;
+	margin: 0 26px;
+	padding-top: 5px;
+	overflow: hidden;
+}
+#btnUl{
+	width: 537px;
+}
+.btnLi{
+	margin: 0 5px;
+	float: left;
+}
+.liBox{
+	line-height: 100px;
+	text-align: center;
+	overflow: hidden;
+}
+.normal{
+	width: 100px;
+	height: 100px;
+	border: 1px solid #DDDDDD;
+}
+.active{
+	width: 95px;
+	height: 95px;
+	border: 5px solid #e5cbb2;
+}
+.gdsImg{
+	width: 60px;
+	height: 60px;
+}
+/*****************放大镜***********************/
+#gdBigPic{
+	width: 400px;
+	height: 300px;
+	position: absolute;
+	top: 328px;
+	left: 655px;
+	z-index: 999;
+	border: 1px solid #CCCCCC;
+	background-color: white;
+	overflow: hidden;
+	display: none;
+}
+#bigPic{
+	position: absolute;
+}
+/********************商品详情右****************************/
+#gdRight{
+	width: 540px;
+	float: right;
+	padding-top: 25px;
+	margin-right: 20px;
+}
+#gdTitle{
+	padding-bottom: 30px;
+	text-align: left;
+	font-size: 22px;
+}
+.titleSpan{
+	color: white;
+	background-color: #EC3E7D;
+	float: left;
+	display: inline-block;
+	padding: 0 5px;
+	margin-right: 10px;
+	font-size: 15px;
+	border-radius: 2px;
+	line-height: 22px;
+	/*position: relative;
+	top: 2px;*/
+}
+#gdWord{
+	float: left;
+	padding-bottom: 40px;
+}
+#gdPrice{
+	width: 540px;
+	height: 65px;
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+}
+#gdNow{
+	color: #EC3E7D;
+	font-weight: bold;
+	font-size: 35px;
+}
+#gdOld{
+	margin-left: 15px;
+	margin-right: 15px;
+	color: #888888;
+	font-size: 14px;
+}
+#gdDis{
+	color: #cb9966;
+	font-size: 16px;
+}
+#gdOnsale{
+	padding: 20px 0;
+}
+.saleWord{
+	padding-bottom: 5px;
+	padding-top: 5px;
+	line-height: 22px;
+	font-size: 14px;
+}
+.saleSpan{
+	background-color: #71D2C3;
+	color: white;
+	float: left;
+	height: 16px;
+	line-height: 16px;
+	border-radius: 3px;
+	font-weight: bold;
+	padding: 2px 8px;
+	margin-right: 5px;
+	font-size: 14px;
+}
+#spancolor{
+	background-color: #C69A62;
+}
+#gdRule{
+	padding: 18px 0 14px;
+	border-top: 1px solid #d8d8d8;
+	border-bottom: 1px solid #d8d8d8;
+	margin-bottom: 5px;
+}
+#ruleUl{
+	font-size: 14px;
+	color: #333;
+}
+.ruleLi{
+	height: 30px;
+}
+.liLeft{
+	width: 50px;
+	color: #959595;
+	float: left;
+}
+.liRight{
+	margin-right: 25px;
+}
+.correct{
+	margin-bottom: 2px;
+}
+#gdBuy{
+	padding: 10px 0;
+	margin-top: 10px;
+}
+#buyNum{
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+#mp{
+	width: 74px;
+}
+#minus,#plus{
+	display: inline-block;
+	width: 20px;
+	height: 21px;
+	border: 1px solid #F2F2F2;
+	text-align: center;
+	background: #F2F2F2;
+	font-weight: bold;
+	font-size: 14px;
+	color: #5b636b;
+}
+#num{
+	width: 30px;
+	height: 21px;
+	line-height: 21px;
+    text-align: center;
+    outline: none;
+    padding: 0;
+    margin-left: -5px;
+    border: 1px solid #F2F2F2;
+}
+#plus{
+	margin-left: -5px;
+}
+#buyBtn{
+	position: relative;
+}
+#btn01{
+	width: 220px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: white;
+	background-color: #EC3E7D;
+	margin-right: 15px;
+	font-weight: bold;
+	border: 0 none;
+	font-size: 16px;
+}
+#btn02{
+	display: inline-block;
+	margin-bottom: 5px;
+	
+}
+#btn03{
+	position: absolute;
+	left: 238px;
+	bottom: 57px;
+	width: 202px;
+	height: 202px;
+	display: none;
+}
+#erweima:hover #btn03{
+	display: block;
+}
+#grade{
+	padding-top: 25px;
+	font-size: 14px;
+}
+#star{
+	display: inline-block;
+	padding-left: 5px;
+	margin-top: -3px;
+}
+#gdShare{
+	overflow: hidden;
+	font-size: 14px;
+}
+#shareLeft{
+	color: #666666;
+	font-size: 14px;
+	display: inline-block;
+	line-height: 34px;
+}
+#leftHeart{
+	margin-right: 5px;
+	color: #3E3E3E;
+}
+#gdRecord{
+	width: 230px;
+	float: left;
+	background-color: white;
+	margin-bottom: 26px;
+}
+#recordTitle{
+	height: 50px;
+	line-height: 50px;
+	border-left: 5px solid #C69A62;
+	/*border-bottom: 1px solid #ebebeb;*/
+	color: #585c65;
+	font-size: 16px;
+	padding-left: 12px;
+}
+.recordLi{
+	height: 70px;
+	border-top: 1px dashed #d4d4d4;
+	padding: 20px 10px;
+	font-size: 14px;
+}
+.small{
+	display: block;
+	width: 70px;
+	height: 70px;
+	float: left;
+	text-align: center;
+}
+#recordWord{
+	overflow: hidden;
+	height: 42px;
+}
+#recordB{
+	color: #EE9C23;
+	font-size: 14px;
+}
+#recordPrice{
+	margin-top: 5px;
+}
+.recordNow{
+	color: #EC3E7D;
+	font-size: 14px;
+}
+.recordOld{
+	margin-left: 10px;
+	color: #959595;
+	font-size: 12px;
+}
+#gdBigbox{
+	width: 850px;
+	float: right;
+	margin-bottom: 30px;
+}
+#gdBar{
+	width: 850px;
+	height: 50px;
+	background-color: white;
+	margin-bottom: 20px;
+}
+.barWord{
+	display: inline-block;
+	font-size: 16px;
+	margin-right: 5px;
+	color: #555c67;
+	border: 1px solid white;
+	padding: 2px 26px;
+	height: 42px;
+	line-height: 42px;
+}
+#spClick{
+	border-bottom: 3px solid #c69a62;
+}
+#barPrice{
+	float: right;
+	color: #EC3E7D;
+	font-size: 24px;
+	line-height: 50px;
+}
+#barShopcar{
+	background-color: #EC3E7D;
+	color: white;
+	line-height: 50px;
+	text-align: center;
+	float: right;
+	padding: 0px 20px;
+	margin-left: 15px;
+	font-size: 16px;
+}
+.gdAttrBox{
+	padding-top: 20px;
+	margin-bottom: 26px;
+	background-color: white;
+}
+.gdBoxTitle{
+	height: 32px;
+	border-left: 3px solid #EC3E7D;
+}
+.boxTitle{
+    padding-left: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 32px;
+    background: url(../img/goodsDetails/probt.png) no-repeat;
+}
+#specs{
+	 background-position: 110px 3px;
+}
+#specsUl{
+	padding: 30px 45px;
+}
+.specsLi{
+	color: #333;
+    padding: 6px 0;
+    font-size: 14px;
+}
+.spanOne{
+	width: 140px;
+	color: #666666;
+}
+.spanTwo{
+	float: right;
+	text-align: left;
+	width: 500px;
+}
+#details{
+	background-position: 110px -46px;
+}
+#detailsPic{
+	padding: 40px 30px;
+}
+#reviews{
+	background-position: 110px -146px;
+}
+#reviewsPic{
+	padding: 40px 30px;
+}

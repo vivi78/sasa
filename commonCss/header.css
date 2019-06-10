@@ -1,0 +1,436 @@
+/*************头部***************/
+#topNav{
+	height: 32px;
+	line-height: 32px;
+	background-color: #f2f2f2;
+	font-size: 12px;
+	color: #6c6c6c;
+	border-bottom: 1px solid #e5e5e5;
+	z-index: 999;
+}
+#topMiddle{
+	height: 32px;
+	/*background: pink;*/
+}
+#topLeft{
+	height: 32px;
+	/*background: skyblue;*/
+}
+#topRight{
+	height: 32px;
+	/*background: skyblue;*/
+}
+#login,#register{
+	color: #ec3e7d;
+	text-decoration: underline;
+}
+#login{
+	margin-left: 10px;
+}
+#rightNav{
+	list-style: none;
+}
+.rightBtns{
+	display: inline-block;
+	float: left;
+	height: 32px;
+}
+.rightBtns a{
+	padding: 0 12px;
+	color: #6C6C6C;
+	text-decoration: none;
+}
+.rightBtns span{
+	font-weight: 700;
+}
+#focus{
+	padding-right: 0;
+}
+#weibo,#wechat{
+	padding: 0 2px;
+}
+#wechat{
+	padding-right: 12px;
+}
+.rightBtns span{
+	color: #EC3E7D;
+}
+.rightBtns:hover{
+	background-color: white;
+}
+#down{
+	color: #949597;
+}
+#user{
+	position: relative;
+}
+#user:hover #userNav{
+	/*display: block;*/
+	height: 140px;
+	padding: 5px 10px 10px 10px;
+	transition: height .5s;
+}
+#userNav{
+	width: 86px;
+	height: 0px;
+	overflow: hidden;
+	background-color: #fff;
+	position: absolute;
+	top: 32px;
+	right: 0;
+	/*padding: 5px 10px 10px 10px;*/
+	z-index: 9;
+	box-shadow: 0px 4px 8px rgba(0,0,0,.2);
+	/*display: none;*/
+}
+#userNav a{
+	text-align: left;
+	line-height: 25px;
+	padding-left: 10px;
+	display: block;
+	color: #888;
+}
+#shopCar{
+	position: relative;
+}
+#shopCar:hover #carNav{
+	display: block;
+}
+#carNav{
+	width: 300px;
+	overflow: hidden;
+	background-color: white;
+	position: absolute;
+	top: 32px;
+	right: 0;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+	z-index: 9;
+	display: none;
+}
+#car{
+	padding: 10px 60px;
+	line-height: 25px;
+	text-align: right;
+}
+#wbwc{
+	position: relative;
+}
+#wb img,#wc img{
+	width: 100px;
+	height: 100px;
+}
+#wb,#wc{
+	background-color: #fff;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 0;
+	z-index: 2;
+	border: 1px solid #ddd;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.2);
+	display: none;
+}
+#weibo:hover #wb{
+	display: block;
+}
+#wechat:hover #wc{
+	display: block;
+}
+/**************serchBox搜索框********************/
+#serchNav{
+	background-color: white;
+}
+#serchBox{
+	height: 95px;
+	/*background-color: aquamarine;*/
+	position: relative;
+}
+#serchBox img{
+	position: absolute;
+	top: 21px;
+}
+#serch{
+	position: absolute;
+	left: 320px;
+	top: 21px;
+}
+#info{
+	width: 346px;
+	height: 36px;
+	background: #EC3E7D;
+	position: relative;
+}
+#oi{
+	width: 330px;
+	height: 24px;
+	line-height: 24px;
+	font-size: 14px;
+	padding: 3px 5px;
+	outline: none;
+	border: none;
+	position: absolute;
+	top: 3px;
+	left: 3px;
+}
+#ok{
+	width: 90px;
+	height: 36px;
+	color: white;
+	background-color: #EC3E7D;
+	float: left;
+	border: none;
+	outline: none;
+	padding: 0;
+}
+.btns{
+	display: inline-block;
+	height: 14px;
+	line-height: 14px;
+	color: #999;
+	border-left: 1px solid #999;
+	padding: 0 10px;
+	margin-left: -8px;
+	margin-right: 12px;
+}
+#kind{
+	display: inline-block;
+	width: 500px;
+	height: 20px;
+	margin-top: 10px;
+	font-size: 12px;
+	overflow: hidden;
+}
+/************bottomNav导航栏******************/
+#bottomNav{
+	height: 36px;
+	background-color: white;
+}
+#bottomMiddle{
+	height: 36px;
+	/*background-color: yellowgreen;*/
+}
+#bottomLeft{
+	width: 190px;
+	height: 36px;
+	line-height: 36px;
+	background-color: #333;
+	color: #fff;
+	font-size: 16px;
+}
+#classify{
+	width: 16px;
+	height: 20px;
+	margin-top: 7px;
+	margin-right: 17px;
+	padding-left: 16px;
+	font-size: 16px;
+	/*position: absolute;*/
+}
+.line{
+	width: 100%;
+	height: 25%;
+	border-bottom: 1px solid #fff;
+}
+#bottomRight{
+	height: 36px;
+	line-height: 36px;
+	margin-left: 20px;
+	font-size: 16px;
+}
+#rightNav{
+	list-style: none;
+}
+.navWord,.navLine{
+	display: inline-block;
+	padding: 0 5px;
+	text-align: center;
+}
+.navLine{
+	width: 20px;
+	color: lightgray;
+}
+.navWord:hover{
+	color: #E93B78;
+}
+#hot{
+	width: 25px;
+	height: 16px;
+	display: inline-block;
+	background-image: url(../img/header/header_hot.png);
+	margin-left: 3px;
+	margin-bottom: -1px;
+}
+/*****************菜单********************/
+#bannerMid{
+	position: relative;
+}
+#listNav{
+	position: absolute;
+	top: 36px;
+	left: 0;
+	z-index: 9;
+	display: none;
+}
+#upList:hover #listNav{
+	display: block;
+}
+#listBox{
+	height: 420px;
+	/*overflow: hidden;*/
+	position: relative;
+}
+.list{
+	display: block;
+	height: 29.5px;
+	width: 164px;
+	padding: 11px 13px;
+	position: relative;
+	background-color: #fa3778;
+	border-bottom: 1px solid #fe7dab;
+	/*float: left;*/
+}
+.list span{
+	color: white;
+	font-size: 16px;
+}
+.listTitle{
+	display: inline-block;
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	margin-left: 35px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+.list:hover{
+	background-color: white;
+}
+.list:hover .listTitle{
+	color: #fa3778;
+	text-decoration: none;
+}
+.list:hover .listTitle:hover{
+	color: black;
+}
+.list:hover .listRight{
+	color: black;
+}
+.listPic{
+	background-image: url(../img/header/banner_list.png);
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: absolute;
+	top: 16px;
+	left: 14px;
+}
+.list:hover .listPic{
+	background-image: url(../img/header/banner_list02.png);
+}
+#face{
+	background-position: center -10px;
+}
+#cosmetic{
+	background-position: center -43px;
+}
+#perfume{
+	background-position: center -77px;
+}
+#skin{
+	background-position: center -110px;
+}
+#body{
+	background-position: center -143px;
+}
+#care{
+	background-position: center -178px;
+}
+#man{
+	background-position: center -210px;
+}
+#baby{
+	background-position: center -243px;
+}
+.listRight{
+	float: right;
+	color: #fff;
+	line-height: 33px;
+}
+/****************二级菜单****************/
+#faceLi:hover #box01{
+	display: block;
+}
+#cosmeticLi:hover #box02{
+	display: block;
+}
+#perfumeLi:hover #box03{
+	display: block;
+}
+#skinLi:hover #box04{
+	display: block;
+}
+#bodyLi:hover #box05{
+	display: block;
+}
+#careLi:hover #box06{
+	display: block;
+}
+#manLi:hover #box07{
+	display: block;
+}
+#babyLi:hover #box08{
+	display: block;
+}
+.sideBox{
+	width: 290px;
+	/*height: 500px;*/
+	background-color: #fff;
+	padding: 5px 25px 15px 25px;
+	overflow: hidden;
+	border: 1px solid #FA3778;
+	position: absolute;
+	left: 190px;
+	top: -1px;
+	z-index: 999;
+	display: none;
+}
+#title{
+	width: calc(100% - 5px);
+	/*margin-left: 5px;*/
+	height: 35px;
+	line-height: 35px;
+	font-size: 14px;
+	font-weight: bold;
+}
+.title a{
+	display: block;
+	color: #555;
+	font-weight: bold;
+	padding: 0 5px;
+	text-decoration: none;
+	margin: 15px 0 5px 0;
+	font-size: 15px;
+}
+.content{
+	width: 100%;
+	overflow: hidden;
+}
+.content a{
+	display: inline-block;
+	margin-left: 0;
+	padding: 0 5px;
+	text-align: center;
+	color: #999;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	text-decoration: none;
+}
+.title a:hover{
+	color: #EC3E7D;
+}
+.content a:hover{
+	color: #EC3E7D;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/login&register.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/iconfont.js" ></script>
+		<script type="text/javascript" src="js/register.js" ></script>
+	</head>
+	<style>
+		@font-face {
+		  font-family: 'iconfont';
+		  src: url('iconfont.eot');
+		  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+		      url('iconfont.woff2') format('woff2'),
+		      url('iconfont.woff') format('woff'),
+		      url('iconfont.ttf') format('truetype'),
+		      url('iconfont.svg#iconfont') format('svg');
+		}
+		.iconfont {
+		  font-family: "iconfont" !important;
+		  font-size: 16px;
+		  font-style: normal;
+		  -webkit-font-smoothing: antialiased;
+		  -moz-osx-font-smoothing: grayscale;
+		}
+	</style>
+	<body>
+		<div id="topNav" class="t">
+			<div id="topMiddle" class="c">
+				<div id="topLeft" class="l">
+					<span>欢迎光临莎莎网！</span>
+					<a href="login.html" id="login">登录</a>
+					<span>或</span>
+					<a href="register.html" id="register">免费注册</a>
+				</div>
+				<div id="topRight" class="r">
+					<ul id="rightNav">
+						<li class="rightBtns" id="user">
+							<a href="#">
+								<!--<span class="iconfont">&#xe60e;</span>-->
+								我的账户
+								<span class="iconfont" id="down">&#xe616;</span>
+							</a>
+							<ul id="userNav">
+								<li><a>我的订单</a></li>
+								<li><a>我的积分</a></li>
+								<li><a>我的优惠券</a></li>
+								<li><a>我的收藏</a></li>
+								<li><a>我的评价</a></li>
+							</ul>
+						</li>
+						<li class="rightBtns" id="shopCar">
+							<a href="#">
+								<span class="iconfont">&#xe60f;</span>
+								我的购物车
+							</a>
+							<div id="carNav">
+								<div id="car">
+									购物车中还没有商品，<br />快去挑选心爱的商品吧
+								</div>
+							</div>
+						</li>
+						<li class="rightBtns">
+							<a href="#">
+								<!--<span class="iconfont">&#xe66f;</span>-->
+								我的收藏
+							</a>
+						</li>
+						<li class="rightBtns">
+							<a href="#">我的站内信</a>
+						</li>
+						<li class="rightBtns">
+							<a href="#">积分中心</a>
+						</li>
+						<li class="rightBtns">
+							<a href="#">Global site</a>
+						</li>
+						<li class="rightBtns" id="wbwc">
+							<a href="#" id="focus">关注我们</a>
+							<a href="#" id="weibo">
+								<img src="img/header/header_weibo.png" />
+								<div id="wb">
+									<img src="img/header/weibo01.jpg" /> 
+								</div>
+							</a>
+							<a href="#" id="wechat">
+								<img src="img/header/header_WeChat.png" />
+								<div id="wc">
+									<img src="img/header/WeChat01.jpg" /> 
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="serchNav" class="t">
+			<div id="serchBox" style="width: 1090px; margin: 0 auto;">
+				<a href="index.html"><img src="img/header/header_logo.png" class="l"/></a>
+			</div>
+		</div>
+		
+		<div id="reBox">
+			<div id="reBg">
+				<div id="reRight" class="r">
+					<div id="reTitle">
+						用户注册
+						<span class="r">已有莎莎网账号？<a href="login.html">立即登录</a></span>
+					</div>
+					<div id="reList">
+						<ul id="reUl">
+							<li class="reLi">
+								<input class="reForm" id="rePhone" type="text" placeholder="请输入邮箱/手机号，最少5个字符" />
+								<p class="warn">请输入正确的邮箱/手机号！</p>
+							</li>
+							<li class="reLi">
+								<input class="reForm" id="rePw" type="password" placeholder="请输入密码6-16位字母和数字的组合" />
+								<p class="warn">请输入正确的密码！</p>
+							</li>
+							<li class="reLi">
+								<input class="reForm" id="rePwagain" type="password" placeholder="再次填写密码" />
+								<p class="warn">请输入正确的密码！</p>
+							</li>
+							<li class="reLi">
+								<input class="reForm" id="reVerify" type="text" placeholder="填写验证码"/>
+								<img src="img/login/login_ver.png" width="80px" height="36px"/>
+								<a href="#" id="reWord">看不清？换一张</a>
+								<p class="warn">验证码不能为空！</p>
+							</li>
+							<li class="reCheck">
+								<input class="reFormcheck" type="checkbox">
+								<span id="read">你已阅读及接受<a> 使用条款</a> 及<a> 隐私政策</a> </span>
+							</li>
+							<li class="reCheck">
+								<input class="reFormcheck" type="checkbox">
+								<span id="read">我不同意莎莎使用我的个人资料作直接促销</span>
+							</li>
+							<li class="reLi">
+								<button type="submit" id="reBtn">注册</button>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>商品列表</title>
+		<link rel="stylesheet" href="css/base.css" />
+		<link rel="stylesheet" href="commonCss/header.css" />
+		<link rel="stylesheet" href="commonCss/footer.css" />
+		<link rel="stylesheet" href="css/iconfont.css" />
+		<link rel="stylesheet" href="css/goodsList.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/iconfont.js" ></script>
+		<script type="text/javascript" src="js/goodsList.js" ></script>
+		<script type="text/javascript" src="js/goodsList_data.js" ></script>
+		<style>
+			@font-face {
+			  font-family: 'iconfont';
+			  src: url('iconfont.eot');
+			  src: url('iconfont.eot?#iefix') format('embedded-opentype'),
+			      url('iconfont.woff2') format('woff2'),
+			      url('iconfont.woff') format('woff'),
+			      url('iconfont.ttf') format('truetype'),
+			      url('iconfont.svg#iconfont') format('svg');
+			}
+			.iconfont {
+			  font-family: "iconfont" !important;
+			  font-size: 16px;
+			  font-style: normal;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+			}
+		</style>
+	</head>
+	<body style="height: 3000px;">
+		<header>
+			
+		</header>
+		
+		<section id="goodsListBody">
+			<div id="glContent" class="c">
+				<div id="glNav">
+					<a href="index.html">首页</a> / 搜索“香水”
+				</div>
+				<div id="glSelect">
+					<div id="glChoice">
+						<div id="choiceTop">
+							<span id="choiceWord">已选</span>
+							<span class="choiceRight">重置筛选项</span>
+						</div>
+						<div id="choiceMid">
+							<div class="choiceNav">
+								<span class="choiceLeft">分类</span>
+								<ul class="choiceUl">
+									<li class="choiceLi">指甲油</li>
+									<li class="choiceLi">香水EDP</li>
+									<li class="choiceLi">淡香水EDT</li>
+									<li class="choiceLi">淡香氛</li>
+									<li class="choiceLi">固体香水/香膏</li>
+									<li class="choiceLi">香发喷雾</li>
+									<li class="choiceLi">小样香水</li>
+									<li class="choiceLi">香芬喷雾</li>
+									<li class="choiceLi">香水礼品套装</li>
+									<li class="choiceLi">古龙水EDC</li>
+								</ul>
+								<span class="choiceRight">更多<i class="iconfont">&#xe6e2;</i></span>
+							</div>
+							<div class="choiceNav">
+								<span class="choiceLeft">品牌</span>
+								<ul class="choiceUl">
+									<li class="choiceLi">伊丽莎白·雅顿</li>
+									<li class="choiceLi">法拉利</li>
+									<li class="choiceLi">皇家玛丽娜</li>
+									<li class="choiceLi">圣罗兰</li>
+									<li class="choiceLi">Perry Ellis</li>
+									<li class="choiceLi">雅诗兰黛</li>
+									<li class="choiceLi">香奈儿</li>
+									<li class="choiceLi">兰蔻</li>
+									<li class="choiceLi">迪奥</li>
+									<li class="choiceLi">蓝色情人</li>
+								</ul>
+								<span class="choiceRight">更多<i class="iconfont">&#xe6e2;</i></span>
+							</div>
+							<div class="choiceNav" style="height: 36px;">
+								<span class="choiceLeft">功效</span>
+								<ul class="choiceUl">
+									<li class="choiceLi">芬芳迷人</li>
+								</ul>
+							</div>
+							<div id="choiceMore">
+								<span id="mmore">显示更多筛选项<i class="iconfont" style="color: #818386;">&#xe6e2;</i></span>
+							</div>
+						</div>
+					</div>
+					<div id="glSort">
+						<div id="sortLeft" class="l">
+							<ul>
+								<li class="sortLi">排序</li>
+								<li class="sortLi" id="liIcon">销售
+									<span id="sortIcon"></span>
+								</li>
+								<li class="sortLi">人气</li>
+								<li class="sortLi">评分</li>
+								<li class="sortLi">上架时间</li>
+								<li class="sortLi">价格</li>
+							</ul>
+						</div>
+						<input type="checkbox" id="sortCheck" />
+						<span id="sortLook">只看特卖</span>
+						<span id="sortAll">（共614件商品）</span>
+						<div id="sortRight" class="r">
+							<span class="sortCircle iconfont">&#xe6d7;</span>
+							<span>1/27</span>
+							<span class="sortCircle iconfont">&#xe7e8;</span>
+						</div>
+					</div>
+				</div>
+				<div id="glMain">
+					<ul id="goodsBox">
+						<!--<li class="goodsInfo">
+							<div class="infoFather">
+								<div class="infoSon">
+									<div class="goodsPic">
+										<img src="img/goodsList/while.png" class="newImg"/>
+										<div class="goodsBrand">
+											<img src="img/goodsList/western_icon.png" class="brandImg"/>
+											<span class="brandWord">欧美品牌</span>
+										</div>
+										<img src="img/goodsList/gl06.jpg"  class="goodsImg"/>
+									</div>
+									<div class="goodsPrice">
+										<span class="discount">7.9折</span>
+										<span class="goodsNow">￥689.0</span>
+										<span class="goodsOld"><del>￥870.0</del></span>
+									</div>
+									<div class="goodsDetail">
+										<div class="detail01">
+											<b class="detailB">香港特快直送 零扣关 包税  </b>爱马仕
+										</div>
+										<p class="detail02">蓝色橘彩星光淡<font color="#EC3E7D">香水</font></p>
+										<p class="detail03">50毫升</p>
+										<div class="goodsTag">直降</div>
+									</div>
+									<div class="goodsBtn">
+										<a href="#" class="btnA">
+											<span class="btnSpan">加入购物车</span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</li>-->
+					</ul>
+					<div id="goodsBottom">
+						<span class="lr"><i class="iconfont">&#xe654;</i> </span>
+						<a href="#" class="bottomCircle" id="circleOne">1</a>
+						<a href="#" class="bottomCircle">2</a>
+						<a href="#" class="bottomCircle">3</a>
+						<span style="margin-left: 5px; line-height: 20px;">...</span>
+						<a href="#" class="bottomCircle">26</a>
+						<a href="#" class="bottomCircle">27</a>
+						<a href="#" class="bottomCircle">28</a>
+						<span class="lr"><i class="iconfont">&#xe653;</i> </span>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<footer>
+			
+		</footer>
+		<script>
+			$('header').load('commonHtml/header.html');
+			$('footer').load('commonHtml/footer.html');
+		</script>
+	</body>
+</html>

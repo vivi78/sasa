@@ -1,0 +1,268 @@
+/*************脚部*****************/
+footer{
+	background-color: white;
+}
+#footerNav{
+	background-color: white;
+	overflow: hidden;
+}
+#footLeft{
+	width: 800px;
+	padding-bottom: 20px;
+}
+#footRight{
+	width: 300px;
+}
+#footLeftBox{
+	padding-bottom: 18px;
+	overflow: hidden;
+}
+.footWord{
+	width: 80px;
+	margin-right: 90px;
+	margin-top: 16px;
+	float: left;
+}
+.footWord h4{
+	color: #222222;
+	font-size: 14px;
+	padding: 8px 0;
+}
+.footWord li{
+	color: #999999;
+	font-size: 12px;
+	padding: 5px 0;
+}
+.footWord:nth-child(5){
+	margin-right: 0;
+}
+#footWechat,#footWeibo{
+	width: 128px;
+	height: 178px;
+	float: right;
+	margin-top: 20px;
+	text-align: center;
+}
+#footWechat img{
+	width: 120px;
+	height: 120px;
+}
+#footWechat p{
+	color: #111111;
+	font-size: 12px;
+	font-weight: bold;
+}
+#footWeibo img{
+	width: 120px;
+	height: 120px;
+}
+#footWeibo p{
+	color: #111111;
+	font-size: 12px;
+	font-weight: bold;
+}
+#footerAbout{
+	background-color: black;
+}
+#aboutMid{
+	padding-top: 26px;
+	padding-bottom: 26px;
+	font-size: 12px;
+	color: white;
+}
+#aboutOne p{
+	padding: 5px 0;
+}
+#aboutTwo{
+	padding-top: 14px;
+	line-height: 12px;
+}
+/**************sideBar右侧边栏******************/
+#sideBar{
+	position: relative;
+}
+#side{
+	width: 38px;
+	height: 100%;
+	background-color: #4c4c4c;
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 50;
+}
+#side a{
+	text-decoration: none;
+}
+.hov:hover{
+	background-color: #EC3E7D;
+}
+#boxOne{
+	width: 38px;
+	height: 286px;
+	position: absolute;
+	top: 20%;
+	/*border: 1px solid yellow;*/
+}
+#boxTwo{
+	width: 38px;
+	height: 125px;
+	position: absolute;
+	bottom: 0;
+	/*border: 1px solid yellow;*/
+}
+.iconfont{
+	color: #c69a62;
+	font-size: 20px;
+}
+#box_user,#box_heart,#box_read,#box_ask,#box_code{
+	position: relative;
+	left: 0;
+	width: 38px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	z-index: 9;
+}
+#shopping{
+	border-top: 1px solid #666666;
+	border-bottom: 1px solid #666666;
+	margin: 10px auto;
+	padding: 15px 0;
+	height: 90px;
+	text-align: center;
+}
+#scar{
+	font-size: 21px;
+}
+#shopping p{
+	color: white;
+	font-size: 12px;
+	display: block;
+	width: 20px;
+	margin: 0 auto;
+}
+#shopping b{
+	background-color: #EC3E7D;
+	width: 12px;
+	display: inline-block;
+	border-radius: 10px;
+	line-height: 13px;
+	padding: 0 3px;
+	color: white;
+	font-size: 9px;
+}
+#up{
+	padding: 15px 0 0 0;
+	text-align: center;
+}
+#upIcon{
+	display: block;
+	font-size: 8px;
+	color: #c69a62;
+	text-align: center;
+}
+#up a{
+	font-size: 10px;
+	line-height: 10px;
+	color: white;
+	text-decoration: none;
+}
+.sideBlock{
+	width: 90px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+	color: #DDDDDD;
+	background-color: #494949;
+}
+.block{
+	position: absolute;
+	top: 10px;
+	right: -8px;
+	width: 16px;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 16px;
+	color: #494949;
+}
+#userBlock{
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	opacity: 1;
+	display: none;
+}
+.hov:hover #userBlock{
+	animation: moves .5s;
+	display: block;
+	position: absolute;
+	right: 38px;
+}
+#heartBlock{
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	opacity: 1;
+	display: none;
+}
+.hov:hover #heartBlock{
+	animation: moves .5s;
+	display: block;
+	position: absolute;
+	right: 38px;
+}
+#readBlock{
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	opacity: 1;
+	display: none;
+}
+.hov:hover #readBlock{
+	animation: moves .5s;
+	display: block;
+	position: absolute;
+	right: 38px;
+}
+#askBlock{
+	position: absolute;
+	top: 0px;
+	right: 70px;
+	opacity: 1;
+	display: none;
+}
+.hov:hover #askBlock{
+	animation: moves .5s;
+	display: block;
+	position: absolute;
+	right: 38px;
+}
+#white{
+	color: white;
+	right: -8px;
+	margin-top: 50px;
+}
+#code{
+	position: absolute;
+	top: 0;
+	right: 120px;
+	margin-top: -50px;
+	opacity: 1;
+	display: none;
+}
+.hov:hover #code{
+	animation: moves .5s;
+	display: block;
+	position: absolute;
+	right: 38px;
+}
+@keyframes moves{
+	from{
+		opacity: 0;
+		right: 70px;
+	}
+	to{
+		right: 38px;
+	}
+}*/
